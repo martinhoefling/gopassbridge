@@ -46,8 +46,8 @@ See `Makefile` release target. For Firefox, the development plugin can be instal
 The connection to gopass is achieved via the native messaging.
 For this a native messaging manifest is necessary.
 
-It is recommended that you set up the manifests with gopass as described in the [gopass documentation, "filling passwords from browser"](https://github.com/gopasspw/gopass/blob/master/docs/setup.md#filling-in-passwords-from-browser).
-In most cases it is enough to run `gopass jsonapi configure` and follow the tutorial.
+It is recommended that you set up the manifests with [gopass-jsonapi](https://github.com/gopasspw/gopass-jsonapi) as described in the [gopass documentation, "filling passwords from browser"](https://github.com/gopasspw/gopass/blob/master/docs/setup.md#filling-in-passwords-from-browser).
+In most cases it is enough to run `gopass-jsonapi configure` and follow the tutorial.
 
 If you prefer a manual setup, example manifest configurations and a wrapper for gopass can be found in the `native-app` directory of this repository. 
 Adapt the wrapper and manifest and copy them to the correct locations.
